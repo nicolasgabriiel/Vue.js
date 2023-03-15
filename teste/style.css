@@ -1,0 +1,35 @@
+.caixa1 {
+    width:1000px ;
+    height: 500px;
+    background-color: lightsalmon;
+    margin: 30px;
+    display: inline-block;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerda , .direita{
+    width: 450px;
+    height: 450px;
+    background-color: red;
+    margin:20px;
+}
+.container{
+    width: 100%;
+}
+.baixo{
+    height: 10px;
+    width: 100%;
+    margin: 10px 0;
+    background-color: white;
+}
+.cima{
+    position: relative;
+    top: -19px;
+    background-color: black;
+    height: 10px;
+    width: calc(115%/1.6);
+    margin: 10px 0;
+   
+}
